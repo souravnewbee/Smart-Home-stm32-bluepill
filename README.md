@@ -309,7 +309,7 @@ cd Smart-Home-stm32-bluepill
 
 ## 👥 Team
 
-### 🔧 Sourav Roy — Lead Engineer 
+### 🔧 Sourav Roy — Lead Engineer
 
 > Primary contributor responsible for the majority of the hardware and technical implementation.
 
@@ -327,8 +327,8 @@ cd Smart-Home-stm32-bluepill
 
 ### 🤝 Other Contributors
 
-| Name | Student ID | Contribution |
-|---|---|---|
+| Name | Contribution |
+|---|---|
 | **Ahnaf Mohammed Mahi Kabir** | STM32CubeMX peripheral configuration, HAL-based C firmware, control loop structure |
 | **Afia Mubassira Ali Raisa** | Android Bluetooth pairing with HC-05, real-time command testing via mobile app |
 | **Khatune Jannat** | IEEE report formatting and technical writing |
