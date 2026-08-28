@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"relay and bluetooth\startup_stm32f103xb.o"
+"relay and bluetooth\main.o"
+"relay and bluetooth\stm32f1xx_it.o"
+"relay and bluetooth\stm32f1xx_hal_msp.o"
+"relay and bluetooth\stm32f1xx_hal_gpio_ex.o"
+"relay and bluetooth\stm32f1xx_hal_uart.o"
+"relay and bluetooth\stm32f1xx_hal.o"
+"relay and bluetooth\stm32f1xx_hal_rcc.o"
+"relay and bluetooth\stm32f1xx_hal_rcc_ex.o"
+"relay and bluetooth\stm32f1xx_hal_gpio.o"
+"relay and bluetooth\stm32f1xx_hal_dma.o"
+"relay and bluetooth\stm32f1xx_hal_cortex.o"
+"relay and bluetooth\stm32f1xx_hal_pwr.o"
+"relay and bluetooth\stm32f1xx_hal_flash.o"
+"relay and bluetooth\stm32f1xx_hal_flash_ex.o"
+"relay and bluetooth\stm32f1xx_hal_exti.o"
+"relay and bluetooth\system_stm32f1xx.o"
+--strict --scatter "Relay and Bluetooth\Relay and Bluetooth.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Relay and Bluetooth.map" -o "Relay and Bluetooth\Relay and Bluetooth.axf"
